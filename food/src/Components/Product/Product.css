@@ -1,0 +1,72 @@
+.Content {
+    /* background-image: url("https://images.summitmedia-digital.com/realliving/resize/images/2020/04/01/grocery-970x546.webp"); */
+    background-image: url("/images/fix.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Products li{
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 auto;
+    margin: 2rem;
+    height: 100%;
+    border-bottom: 0.2rem #C0C0C0 solid ;
+    cursor: pointer;
+}
+
+.Products li:active{
+    border: 0.2rem rgb(190, 189, 189) solid ;
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.Name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.Name:hover{
+    color: #FF8000;
+}
+
+.Category{
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 0.1rem;
+}
+
+.Price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.07rem;
+}
+
+.Image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:300px;
+    
+}
+
+.New{
+    
+    font-size: 2rem;
+}

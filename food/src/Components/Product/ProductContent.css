@@ -1,0 +1,140 @@
+.Content {
+    /* background-image: url("https://images.summitmedia-digital.com/realliving/resize/images/2020/04/01/grocery-970x546.webp"); */
+    background-image: url("../images/fix.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.Products{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Products li{
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 auto;
+    margin: 2rem;
+    height: 100%;
+    border-bottom: 0.2rem #C0C0C0 solid ;
+    
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.Name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.Name:hover{
+    color: #FF8000;
+}
+
+.Category{
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 0.1rem;
+}
+
+.Price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.07rem;
+}
+
+.Image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:200px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.BuildControl button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.BuildControl button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.BuildControl button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.BuildControl .Less {  
+    background-color: #D39952;
+    color: white;
+    margin-left: 30px;
+}
+
+.BuildControl .More {
+    background-color: #8F5E1E;
+    color: white;
+    margin-right: 30px;
+}
+
+.BuildControl .Less:hover, .BuildControl .Less:active {  
+    background-color: #DAA972;
+    color: white;
+}
+
+.BuildControl .More:hover,.BuildControl .More:active {
+    background-color: #99703F;
+    color: white;
+}

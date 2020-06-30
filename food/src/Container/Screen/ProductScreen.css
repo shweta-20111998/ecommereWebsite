@@ -1,0 +1,76 @@
+.Product{
+    font-size: 1.2rem;
+    margin-top: 100px;
+
+}
+
+.images{
+    width:500px;
+    flex:2 1 60rem;
+    margin-top: 50px;
+}
+
+.margin{
+    margin-top: 100px;
+    text-decoration: none;
+    padding: 13px;
+    border: black;
+    font-size: 2rem;
+}
+
+.Para{
+    margin-top: 100px;
+    flex:1 1 20rem;
+    margin-left: 100px;
+    font-size: 2rem;
+}
+
+.action{
+    flex:1 1 20rem;
+    margin-top: 100px;
+    border: .1rem;
+    border-radius: 0.5rem;
+    background-color: #c0bcbc;
+    padding: 1rem;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.Action{
+    flex:1 1 18rem;
+    margin-top: 100px;
+    border: .1rem;
+    border-radius: 0.5rem;
+    background-color: #c0bcbc;
+    padding: 1rem;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+.button{
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin-top: 50px;
+    width: 100px;
+    border: 1px solid #67d351;
+    background-color: rgb(253, 178, 66);
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover{
+    border: 1px solid #448b35;
+}
+
+.qty{
+    font-size: 2rem;
+}

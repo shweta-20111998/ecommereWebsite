@@ -1,0 +1,63 @@
+
+
+.Header{
+    height: 80px;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-bottom:10px;
+}
+
+/* .Header{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #703B09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    
+} */
+
+.Brand a{
+    
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+.Headerlink a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.first{
+    margin-left: 80px;
+}
+
+.Headerlink a:hover{
+    color: rgb(121, 178, 253);
+}
+
+.Fruit{
+    width: 40px;
+}
+.Radius{
+    width: 40px;
+    border-radius: 100%;
+}
+
